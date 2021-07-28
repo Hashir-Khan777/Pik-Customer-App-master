@@ -1,0 +1,303 @@
+{
+  "langSwitch": {
+    "current": "Seleccione el idioma",
+    "title": "Español"
+  },
+  "pages": {
+    "mainHome": {
+      "Header": {
+        "Hello": "Hola",
+        "how_help": "Gracias por preferirnos"
+      },
+      "welcome_customer_main":"Bienvenido a Pik Delivery",
+      "welcome_customer_sub":"Donde Siempre Eliges!",
+      "sign_in":"Iniciar Sesión",
+      "register":"Regístrate",
+      "actions": "¿Qué deseas hacer?",
+      "send_package": "Enviar Artículo",
+      "request_package": "Solicitar Artículo",
+      "pickup_location": "Ubicación de recogida",
+      "select_pickup_location": "Ubicación de recogida",
+      "who_pay": "Quién paga?",
+      "me": "Yo",
+      "receiver": "Destinatario",
+      "receiver_name": "Nombre del destinatario",
+      "phone_must_pik_account": "El teléfono debe estar registrado en PIK Delivery ",
+      "request_to": "Solicitar a",
+      "mobile_not_pik": "Número de móvil no relacionado con el usuario de PIK Delivery ",
+      "add_pictures": "Agregar imagen (opcional)",
+      "remove": "Retirar",
+      "pickup_note": "Nota al mensajero",
+      "note_to_driver": "Nota para el mensajero (opcional)",
+      "note_to_sender": "Nota para el remitente (opcional)",
+      "sender_name": "Nombre del remitente",
+      "select": "Seleccionar",
+      "request": "Solicitar",
+      "delivery_location": "Ubicación de Entrega",
+      "select_delivery_location": "Ubicación de entrega",
+      "delivery_note": "Agregar instrucciones de entrega",
+      "customer_note": "Nota del cliente",
+      "note_to_customer": "Agregar descripción (opcional)",
+      "select_location": "Seleccionar ubicación",
+      "write_receiver_name": "Escribe el nombre del destinatario",
+      "write_sender_name": "Escribe el nombre del remitente",
+      "enter_receiver_phone": "Ingrese el teléfono del receptor",
+      "enter_sender_phone": "Ingrese el teléfono del remitente",
+      "invalid_phone_number": "Numero de telefono invalido",
+      "select_credit_card": "Por favor seleccione tarjeta de crédito",
+      "check_form_try": "Algunas validaciones fallan. Verifique los datos del formulario y vuelva a intentarlo",
+      "receiving_pik_user": "Recibiendo usuario de PIK",
+      "sender_pik_user": "Remitente PIK user",
+      "not_found": "extraviado",
+      "pending": "Pendiente",
+      "available": "Disponible",
+      "packages": "artículos",
+      "no_package": "No tienes artículos disponible",
+      "get_packages": "Recibir mis artículos",
+      "cancel_order": "Cancelar la orden",
+      "ru_cancel_order": "Estás seguro de cancelar esta orden?",
+      "send_request": "Solicitud de Envío",
+      "address_request": "Solicitud de ubicación",
+      "pending_package": " Articulos Pendientes",
+      "complete_order": "Completar la orden",
+      "waiting_complete_order": "Ingresa los datos para completar la orden",
+      "schedule_packages": "Más tarde sus Artículo",
+      "server_time_not_match": "La fecha / hora del servidor no coincide con la hora de su teléfono. Configure la fecha / hora de su teléfono.",
+      "packages_pickup": "artículos para recoger",
+      "book_delivery": "Cuando deseo mi entrega?",
+      "pik_now": "PIK Ahora",
+      "schedule": "Más Tarde",
+      "order_start_immediately": "Su orden de retiro comenzará de inmediato.",
+      "order_canceled":"orden cancelada"
+    },
+    "travel": {
+      "tabs": {
+        "travels": "Ordenes",
+        "started_by_me": "Por mi",
+        "started_by_other": "Por otros"
+      },
+      "no_order": "No hay órdenes para mostrar",
+      "PickupFrom": "Recogida",
+      "DeliveredTo": "Recogida",
+      "ReturnedTo": "Devuelto a",
+      "PackageFrom": "Paquete de",
+      "SendingTo": "Inicio del viaje",
+      "PackageTo": "Paquete a",
+      "status": {
+        "Pending": "Pendiente",
+        "InProgress": "En curso",
+        "Reschedule": "Reprogramar",
+        "Canceled": "Cancelado",
+        "Returned": "Devuelto",
+        "Completed": "Completado"
+      },
+      "live_tracking": "Seguimiento en vivo",
+      "order_cannot_cancel": "No se puede cancelar el orden",
+      "pik_delivery": "PIK Delivery",
+      "order_delivery_code": "Código de entrega del pedido",
+      "driver": "Conductor",
+      "not": "No",
+      "assigned": "Asignado",
+      "order_details": "Detalles de la Orden",
+      "waiting": "Esperando",
+      "complete_order": "orden completa",
+      "request_canceled": "Solicitud cancelada",
+      "arrive_your_place": "ha llegado al punto de entrega.",
+      "waiting_time": "Tiempo de espera",
+      "returned_to_pickup_location": "Regresó al lugar de recogida",
+      "returning_to_pickup_location": "Regresando al lugar de recogida",
+      "booking_cancelled_not_confirmed": "Reserva cancelada porque no fue confirmada. Por favor reprograme.",
+      "order_will_start_confirm_location": "Comenzará el pedido. Confirme su ubicación.",
+      "change_location": "Cambiar ubicación",
+      "reschedule": "Reprogramar",
+      "accept": "Aceptar",
+      "order_id": "Número de orden",
+      "date": "Fecha",
+      "vehicle_type": "Tipo de vehiculo",
+      "vehicle": {
+        "Moto": "Moto",
+        "Carro": "Carro",
+        "Pickup": "Recoger"
+      },
+      "delivery_code": "CÓDIGO DE ENTREGA",
+      "share_qr_code": "Compartir código QR",
+      "request_to": "Solicitar a",
+      "rider_start": "Inicio de viaje",
+      "waiting_for_address": "Esperando dirección",
+      "DropOff": "Entrega",
+      "go_back": "Regresar",
+      "please_wait": "Espere por favor",
+      "details": "Details",
+      "carrier_delivering": "Seguimiento en vivo",
+      "delivery": "Entrega",
+      "chat": {
+        "type": "Escribe algo"
+      }
+    },
+    "accountHome": {
+      "menu": {
+        "profile": {
+          "title": "Mi Perfil",
+          "description": "Informacion personal"
+        },
+        "support": {
+          "title": "Centro de ayuda",
+          "description": "Necesitas asistencia?"
+        },
+        "payment": {
+          "title": "Mi billetera",
+          "description": "Forma de pago"
+        },
+        "address": {
+          "title": "Mis direcciones",
+          "description": "Directorio"
+        },
+        "settings": {
+          "title": "Ajustes",
+          "description": "Notificaciones"
+        },
+        "about": {
+          "title": "Conoce Pik Delivery",
+          "description": "Quiénes somos"
+        },
+        "share": {
+          "title": "Compartir PIK",
+          "description": "Refiere a tus amigos"
+        },
+        "logout": {
+          "title": "Cerrar sesión",
+          "description": "Salir de PIK Delivery"
+        }
+      },
+      "ru_logout": "Estás seguro de cerrar sesión?",
+      "pik_delivery_awesome_app": "PIK Delivery es una aplicación increíble para enviar su paquete.",
+      "downloadit": "Descárgalo desde"
+    },
+    "profile": {
+      "my_profile": "Mi Perfil",
+      "customer": "Usuario",
+      "fullname": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "password": "Contraseña",
+      "update_profile": "Actualizar Mi Perfil"
+    },
+    "support_center": {
+      "header": "Centro de Ayuda",
+      "top_questions": "Preguntas Frecuentes",
+      "payments": "Pagos",
+      "still_need_help": "¿Necesitas más ayuda?",
+      "contact_us": "Contáctanos",
+      "search": "Buscar",
+      "faq": "Preguntas más frecuentes"
+    },
+    "my_address": {
+      "header": "Mis Direcciones",
+      "search_place_address": "Busca un lugar o ubicación",
+      "no_custom_address": "No tienes direcciones guardadas",
+      "search_new_address": "Busca una ubicación y guárdala",
+      "search_result": "Resultado de búsqueda",
+      "saved_address": "Dirección guardada",
+      "enter_address": "Ingresa la dirección",
+      "enter_name_for_address": "Ingrese el nombre para su dirección",
+      "ru_delete_address": "Estás seguro de que deseas eliminar la dirección?",
+      "save_address": "Guardar dirección",
+      "address": "Dirección",
+      "name": "Nombre"
+    },
+    "about_pik": {
+      "header": "Conoce Pik Delivery",
+      "AboutPIK": "Conoce Pik Delivery",
+      "about_pik_delivery": "Conoce Pik Delivery",
+      "about_us": "Quiénes somos",
+      "legal_terms": "Términos legales",
+      "Legal1": "Términos y Condiciones",
+      "Legal2": "Políticas de Privacidad",
+      "need_tell_sth": "¿ Necesitas más ayuda?",
+      "enquiry_type": "Tipo de consulta",
+      "help_with_order": "Ayuda con un orden",
+      "upload_image": "Cargar imagen",
+      "how_we_help": "Por favor, detalle cómo podemos ayudar.",
+      "select_order": "Seleccione un orden",
+      "send_message": "Enviar mensaje",
+      "sent_message":"Mensaje Enviado",
+      "enquiry_type_required": "Tipo de consulta requerido",
+      "write_some_details": "Escribe algunos detalles",
+      "ticket_register_success": "Ticket de soporte registrado con éxito",
+      "id": "identificación",
+      "from": "De",
+      "to": "A"
+    },
+    "search_carrier": {
+      "title": "Solicitando",
+      "search_carrier": "En busca de un mensajero ..."
+    }
+  },
+  "feedback": {
+    "thank_choose_pik": "Gracias por utilizar PIK DELIVERY",
+    "your_receipt": "Tu cuenta fue de",
+    "give_review": "Tu calificación es muy importante",
+    "how_overall_experience": "¿Como fue tu experiencia con",
+    "leave_review": "Escribe tus comentarios",
+    "submit": "Enviar",
+    "tell_us_more": "¿Deseas comentarnos algo adicional?"
+  },
+  "vehicle_info": {
+    "make_modal": "Marca / Modelo",
+    "plate": "Placa",
+    "color": "Color"
+  },
+  "contact": {
+    "title": "Contactos",
+    "contact_info": "Datos de contacto"
+  },
+  "payment_detail": {
+    "see_price_breakdown": "Detalle del pago",
+    "will_charge_order_start": "El pago se realizará cuando la orden inicie",
+    "distance": "Distancia",
+    "vehicle_type": "Tipo de vehiculo",
+    "coverage_discount": "Descuento de cobertura",
+    "tax": "Impuesto",
+    "select_card_number": "Seleccione su número de tarjeta",
+    "payment_method": "Mis tarjetas",
+    "payment_methods": "Métodos de Pago",
+    "add_payment_method": "Agregar una tarjeta",
+    "credit_card_not_empty": "La tarjeta de crédito no puede estar vacía",
+    "only_visa_master": "Solo aceptamos visa o mastercard",
+    "empty": "Vacía",
+    "enter_cvv": "Ingrese CVV",
+    "3_4_digit": "3 o 4 dígitos",
+    "card_number": "Número de tarjeta",
+    "cvv": "CVV"
+  },
+  "photo": {
+    "select_photo": "Seleccionar la imagen ",
+    "take_photo": "Tomar una foto",
+    "choose_library": "Elegir de mi galería",
+    "cancel": "Cancelar"
+  },
+  "bottomMenu": {
+    "home": "Inicio",
+    "travels": "Órdenes",
+    "me": "Mi Perfil"
+  },
+  "general": {
+    "Hello": "Hola",
+    "Hey": "Oye",
+    "month": "Mes",
+    "year": "Año",
+    "save": "Guardar",
+    "place_order": "Realizar la orden",
+    "phone_number": "Número de teléfono",
+    "yes": "sí",
+    "no": "No",
+    "small": "Pequeña",
+    "large": "Grande",
+    "box": "Caja",
+    "done": "Hecho",
+    "confirm": "Confirmar",
+    "Warning": "Advertencia",
+    "no_update_server": "No se han realizado cambios para guardar",
+    "Attention": "Atención",
+    "your_gps_off": "Enciende tu GPS para activar esta función."
+  }
+}

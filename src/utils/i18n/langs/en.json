@@ -1,0 +1,297 @@
+{
+  "langSwitch": {
+    "current": "Select Language",
+    "title": "English"
+  },
+  "pages": {
+    "mainHome": {
+      "Header": {
+        "Hello": "Hello",
+        "how_help": "How can we help?"
+      },
+      "actions": "Actions",
+      "send_package": "Send Package",
+      "request_package": "Request Package",
+      "pickup_location": "Pickup Location",
+      "select_pickup_location": "Select Pickup Location",
+      "who_pay": "Who's paying?",
+      "me": "Me",
+      "receiver": "Receiver",
+      "receiver_name": "Receiver Name",
+      "phone_must_pik_account": "Phone must be related to a PIK account",
+      "request_to": "Request To",
+      "mobile_not_pik": "Mobile number not related to PIK user",
+      "add_pictures": "Add Pictures",
+      "remove": "Remove",
+      "pickup_note": "Pickup Note",
+      "note_to_driver": "Note to driver",
+      "note_to_sender": "Note to sender",
+      "sender_name": "Sender Name",
+      "select": "Select",
+      "request": "Request",
+      "delivery_location": "Delivery Location",
+      "select_delivery_location": "Select Delivery Location",
+      "delivery_note": "Delivery Note",
+      "customer_note": "Customer Note",
+      "note_to_customer": "Note to customer",
+      "select_location": "Select location",
+      "write_receiver_name": "Please write receiver name",
+      "write_sender_name": "Please write sender name",
+      "enter_receiver_phone": "Enter receiver phone",
+      "enter_sender_phone": "Enter sender phone",
+      "invalid_phone_number": "Invalid phone number",
+      "select_credit_card": "Please select credit card",
+      "check_form_try": "Some validations failed. Check the form data and try again",
+      "receiving_pik_user": "Receiving PIK user",
+      "sender_pik_user": "Sender PIK user",
+      "not_found": "not found",
+      "pending": "Pending",
+      "available": "Available",
+      "packages": "packages",
+      "no_package": "No package available",
+      "get_packages": "GET PACKAGES",
+      "cancel_order": "Cancel Order",
+      "ru_cancel_order": "Are you sure want to cancel this order?",
+      "send_request": "Send Request",
+      "address_request": "Address Request",
+      "pending_package": "Pending Package",
+      "complete_order": "Complete Order",
+      "waiting_complete_order": "Waiting for complete order",
+      "schedule_packages": "Schedule your packages",
+      "server_time_not_match": "Server date/time does not match your phone time. Set your phone date/time.",
+      "packages_pickup": "packages to pickup",
+      "book_delivery": "Book Delivery",
+      "pik_now": "PIK Now",
+      "schedule": "Schedule",
+      "order_start_immediately": "Your pickup order will start immediately"
+    },
+    "travel": {
+      "tabs": {
+        "travels": "Travels",
+        "started_by_me": "Started by me",
+        "started_by_other": "Started by others"
+      },
+      "no_order": "No Order",
+      "PickupFrom": "Pickup From",
+      "DeliveredTo": "Delivered To",
+      "ReturnedTo": "Returned To",
+      "PackageFrom": "Package From",
+      "SendingTo": "Sending To",
+      "PackageTo": "Package To",
+      "status": {
+        "Pending": "Pending",
+        "InProgress": "In Progress",
+        "Reschedule": "Reschedule",
+        "Canceled": "Canceled",
+        "Returned": "Returned",
+        "Completed": "Completed"
+      },
+      "live_tracking": "Live tracking",
+      "order_cannot_cancel": "Order cannot be cancel",
+      "pik_delivery": "PIK Delivery",
+      "order_delivery_code": "Order Delivery Code",
+      "driver": "Driver",
+      "not": "Not",
+      "assigned": "Assigned",
+      "order_details": "Order Details",
+      "waiting": "Waiting",
+      "complete_order": "complete the order",
+      "request_canceled": "Request canceled",
+      "arrive_your_place": "arrive your place",
+      "waiting_time": "Waiting time",
+      "returned_to_pickup_location": "Returned to pickup location",
+      "returning_to_pickup_location": "Returning to pickup location",
+      "booking_cancelled_not_confirmed": "Booking cancelled because was not confirmed. Please reschedule.",
+      "order_will_start_confirm_location": "Order will start. Please confirm your location.",
+      "change_location": "Change Location",
+      "reschedule": "Reschedule",
+      "accept": "Accept",
+      "order_id": "Order ID",
+      "date": "Date",
+      "vehicle_type": "Vehicle Type",
+      "vehicle": {
+        "Motorcycle": "Motorcycle",
+        "Car": "Car",
+        "Pickup": "Pickup"
+      },
+      "delivery_code": "DELIVERY CODE",
+      "share_qr_code": "Share QR Code",
+      "request_to": "Request to",
+      "rider_start": "Rider Start",
+      "waiting_for_address": "Waiting for address",
+      "DropOff": "Drop Off",
+      "go_back": "Go Back",
+      "please_wait": "Please Wait",
+      "details": "Details",
+      "carrier_delivering": "Carrier Delivering",
+      "delivery": "Delivery",
+      "chat": {
+        "type": "Type something"
+      }
+    },
+    "accountHome": {
+      "menu": {
+        "profile": {
+          "title": "Edit Profile",
+          "description": "Personal Information"
+        },
+        "support": {
+          "title": "Support Center",
+          "description": "Need help?"
+        },
+        "payment": {
+          "title": "Payment Methods",
+          "description": "Credit Card List"
+        },
+        "address": {
+          "title": "My Addresses",
+          "description": "Address Book"
+        },
+        "settings": {
+          "title": "Settings",
+          "description": "Notifications"
+        },
+        "about": {
+          "title": "About PIK",
+          "description": "About Us"
+        },
+        "share": {
+          "title": "Share",
+          "description": "Share"
+        },
+        "logout": {
+          "title": "Logout",
+          "description": "Exit from PIK Delivery"
+        }
+      },
+      "ru_logout": "Are you sure to logout ?",
+      "pik_delivery_awesome_app": "PIK Delivery is awesome app to send your package.",
+      "downloadit": "Download it from"
+    },
+    "profile": {
+      "my_profile": "My Profile",
+      "customer": "Customer",
+      "fullname": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "update_profile": "Update Profile"
+    },
+    "support_center": {
+      "header": "Support Center",
+      "top_questions": "Top Questions",
+      "payments": "Payments",
+      "still_need_help": "Still need help?",
+      "contact_us": "Contact Us",
+      "search": "Search",
+      "faq": "FAQ"
+    },
+    "my_address": {
+      "header": "My Addresses",
+      "search_place_address": "Search place or address name",
+      "no_custom_address": "You have no custom address",
+      "search_new_address": "Search a new address and save it",
+      "search_result": "Search result",
+      "saved_address": "Saved address",
+      "enter_address": "Enter address",
+      "enter_name_for_address": "Enter name for your address",
+      "ru_delete_address": "Are you sure want to delete address?",
+      "save_address": "Save address",
+      "address": "Address",
+      "name": "Name"
+    },
+    "about_pik": {
+      "header": "About PIK",
+      "AboutPIK": "About PIK",
+      "about_pik_delivery": "About PIK Delivery",
+      "about_us": "About Us",
+      "legal_terms": "Legal Terms",
+      "Legal1": "Legal 1",
+      "Legal2": "Legal 2",
+      "need_tell_sth": "Need To Tell Something?",
+      "enquiry_type": "Enquiry Type",
+      "help_with_order": "Help with an order",
+      "upload_image": "Upload Image",
+      "how_we_help": "Please detail how we can help?",
+      "select_order": "Select An Order",
+      "send_message": "Send Message",
+      "enquiry_type_required": "Enquiry type required",
+      "write_some_details": "Write some details",
+      "ticket_register_success": "Support ticket registered successfully",
+      "id": "ID",
+      "from": "From",
+      "to": "To"
+    },
+    "search_carrier": {
+      "title": "Requesting",
+      "search_carrier": "Searching a Carrier ..."
+    }
+  },
+  "feedback": {
+    "thank_choose_pik": "Thank you for choose PIK",
+    "your_receipt": "Your receipt",
+    "give_review": "Give your review",
+    "how_overall_experience": "How was your overall experience with",
+    "leave_review": "leave a review",
+    "submit": "Submit",
+    "tell_us_more": "Tell us more about it"
+  },
+  "vehicle_info": {
+    "make_modal": "Make/Model",
+    "plate": "Plate",
+    "color": "Color"
+  },
+  "contact": {
+    "title": "Contacts",
+    "contact_info": "Contact Info"
+  },
+  "payment_detail": {
+    "see_price_breakdown": "See Price Breakdown",
+    "will_charge_order_start": "You will be charged when order start",
+    "distance": "Distance",
+    "vehicle_type": "Vehicle Type",
+    "coverage_discount": "Coverage Discount",
+    "tax": "Tax",
+    "select_card_number": "Select your card number",
+    "payment_method": "Payment Methods",
+    "payment_methods": "Payment Methods",
+    "add_payment_method": "Add payment method",
+    "credit_card_not_empty": "Credit card cannot be empty",
+    "only_visa_master": "We only accept visa or mastercard",
+    "empty": "Empty",
+    "enter_cvv": "Enter CVV",
+    "3_4_digit": "3 or 4 Digit",
+    "card_number": "Card Number",
+    "cvv": "CVV"
+  },
+  "photo": {
+    "select_photo": "Select photo",
+    "take_photo": "Take Photo",
+    "choose_library": "Choose From Library",
+    "cancel": "Cancel"
+  },
+  "bottomMenu": {
+    "home": "Home",
+    "travels": "Travels",
+    "me": "Me"
+  },
+  "general": {
+    "Hello": "Hello",
+    "Hey": "Hey",
+    "month": "Month",
+    "year": "Year",
+    "save": "Save",
+    "place_order": "Place Order",
+    "phone_number": "Phone Number",
+    "yes": "Yes",
+    "no": "No",
+    "small": "Small",
+    "large": "Large",
+    "box": "Box",
+    "done": "Done",
+    "confirm": "Confirm",
+    "Warning": "Warning",
+    "no_update_server": "No any edit to update server",
+    "Attention": "Attention",
+    "your_gps_off": "Your GPS is off"
+  }
+}

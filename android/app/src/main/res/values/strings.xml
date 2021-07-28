@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PIK Delivery</string>
+    <string name="facebook_app_id">520715465768812</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">QHMJ8J0mYqvKivqVlp90lXyYa17zNGszrU9gy</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+</resources>

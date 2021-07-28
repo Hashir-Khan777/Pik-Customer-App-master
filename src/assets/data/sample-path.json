@@ -1,0 +1,128 @@
+{
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 35.6628,
+          "lng": 139.731155
+        },
+        "southwest": {
+          "lat": 35.64704,
+          "lng": 139.708701
+        }
+      },
+      "legs": [
+        {
+          "arrival_time": {
+            "text": "12:34",
+            "time_zone": "Asia/Tokyo",
+            "value": 1547555640
+          },
+          "departure_time": {
+            "text": "12:28",
+            "time_zone": "Asia/Tokyo",
+            "value": 1547555280
+          },
+          "distance": {
+            "text": "2.8 km",
+            "value": 2814
+          },
+          "duration": {
+            "text": "6分",
+            "value": 360
+          },
+          "end_address": "六本木",
+          "end_location": {
+            "lat": 35.6628,
+            "lng": 139.731155
+          },
+          "start_address": "恵比寿",
+          "start_location": {
+            "lat": 35.64704,
+            "lng": 139.708701
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "2.8 km",
+                "value": 2814
+              },
+              "duration": {
+                "text": "6分",
+                "value": 360
+              },
+              "html_instructions": "地下鉄 六本木 (B1224S)",
+              "polyline": {
+                "points": "_iqxEkzusY{ZmsAseA}v@"
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 35.6628,
+                    "lng": 139.731155
+                  },
+                  "name": "六本木"
+                },
+                "arrival_time": {
+                  "text": "12:34",
+                  "time_zone": "Asia/Tokyo",
+                  "value": 1547555640
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 35.64704,
+                    "lng": 139.708701
+                  },
+                  "name": "恵比寿"
+                },
+                "departure_time": {
+                  "text": "12:28",
+                  "time_zone": "Asia/Tokyo",
+                  "value": 1547555280
+                },
+                "headsign": "六本木",
+                "intermediate_stops": [
+                  {
+                    "stop": {
+                      "location": {
+                        "lat": 35.651499,
+                        "lng": 139.722209
+                      },
+                      "name": "広尾"
+                    },
+                    "time": {
+                      "text": "12:31",
+                      "time_zone": "Asia/Tokyo",
+                      "value": 1547555460
+                    }
+                  }
+                ],
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "東京メトロ"
+                    }
+                  ],
+                  "color": "",
+                  "name": "日比谷線",
+                  "short_name": "H",
+                  "text_color": "",
+                  "vehicle": {
+                    "name": "B1224S",
+                    "type": "SUBWAY"
+                  }
+                },
+                "num_stops": 2
+              },
+              "travel_mode": "TRANSIT"
+            }
+          ]
+        }
+      ],
+      "overview_polyline": {
+        "points": "_iqxEkzusY{ZmsAseA}v@"
+      }
+    }
+  ],
+  "status": "OK"
+}
