@@ -1,8 +1,8 @@
 import {Dimensions, Platform} from 'react-native';
 
-export VehicleTypes from '../../../node-back/src/constants/VehicleTypes.js';
-export OrderStatuses from '../../../node-back/src/constants/OrderStatuses.js';
-export DriverStatuses from '../../../node-back/src/constants/DriverStatuses.js';
+export VehicleTypes from '../../../pik-node-master/src/constants/VehicleTypes.js';
+export OrderStatuses from '../../../pik-node-master/src/constants/OrderStatuses.js';
+export DriverStatuses from '../../../pik-node-master/src/constants/DriverStatuses.js';
 
 /** ** DEVICE CONSTANTS  *** */
 
@@ -12,7 +12,7 @@ export const WINDOW_HEIGHT = Dimensions.get('window').height;
 const DEVICE_SMALL_AREA = 240000;
 
 export const DEVICE_TYPE =
-    WINDOW_WIDTH * WINDOW_HEIGHT <= DEVICE_SMALL_AREA ? 'small' : 'large';
+  WINDOW_WIDTH * WINDOW_HEIGHT <= DEVICE_SMALL_AREA ? 'small' : 'large';
 export const DEVICE_LARGE = DEVICE_TYPE === 'large';
 export const DEVICE_SMALL = DEVICE_TYPE === 'small';
 export const DEVICE_OS = Platform.OS;
@@ -74,7 +74,12 @@ export const COLOR_TERTIARY_ERROR = '#E53737';
 export const COLOR_TERTIARY_HYPERLINK = '#377DE5';
 
 // Base Gradient
-const BG = {colors: ['#f00', '#00f'], locations: [0, 1], start: {x: 0, y: 0}, end: {x: 1, y: 1}};
+const BG = {
+  colors: ['#f00', '#00f'],
+  locations: [0, 1],
+  start: {x: 0, y: 0},
+  end: {x: 1, y: 1},
+};
 // 'linear-gradient(137.17deg, #E58E37 -24.26%, #FDA085 93.7%)'
 export const GRADIENT_1 = {...BG, colors: ['#E58E37', '#FDA085']};
 // 'linear-gradient(135.21deg, #F12711 -36.55%, #F5AF19 75.09%)'
@@ -87,7 +92,10 @@ export const GRADIENT = {...BG, colors: ['#D0751B', '#E58E37']};
 export const GRADIENT_5 = {...BG, colors: ['#F7A426', '#E58E37']};
 // export const COLOR_GRADIENT_6 = 'linear-gradient(180deg, #F39C47 0%, #F4B15D 100%)'
 export const GRADIENT_6 = {...BG, colors: ['#F39C47', '#F4B15D']};
-export const GRADIENT_7 = {...BG, colors: ['rgba(0,0,0,0.9)', 'rgba(255,255,255,0)']};
+export const GRADIENT_7 = {
+  ...BG,
+  colors: ['rgba(0,0,0,0.9)', 'rgba(255,255,255,0)'],
+};
 export const GRADIENT_8 = {...BG, colors: ['#ddd', '#fafafa']};
 
 export const REGEX_CREDIT_CARD_EXPIRE_DATE = /^((0[1-9])|(1[0-2]))\/((0[1-9])|([1-2][0-9])|(3[0-1]))$/;
