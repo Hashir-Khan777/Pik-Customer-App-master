@@ -154,10 +154,7 @@ const HomePackageLocationScreen = ({
     if (!mapView) {
       setMapCenterAddress(null);
     } else {
-      console.log(
-        'selectedAddress.geometry.location.lat:',
-        selectedAddress.geometry.location.lat,
-      );
+      console.log('selectedAddress.geometry.location.lat:', selectedAddress);
       console.log('Oops!', region);
       GoogleApi.geocoding([region.latitude, region.longitude])
         .then(({results}) => {
@@ -185,6 +182,7 @@ const HomePackageLocationScreen = ({
           };
         })
         .then((address) => {
+          console.log('addess ==========>', address);
           setMapCenterAddress(address);
         });
     }
@@ -215,7 +213,7 @@ const HomePackageLocationScreen = ({
       }
     : {};
   // let _mapView = null;
-  console.log('mapCenterAddress:', mapCenterAddress);
+  console.log('mapCenterAddress:', mapCenterAddress?.formatted_address);
   return (
     <KeyboardAvoidingScreen>
       <PageContainerDark
