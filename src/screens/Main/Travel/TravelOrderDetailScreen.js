@@ -34,7 +34,7 @@ import {
 import UserInfo from '../../../components/UserInfo';
 import Api from '../../../utils/api'
 import BaseModal from '../../../components/BaseModal';
-import OrderStatuses from '../../../../../node-back/src/constants/OrderStatuses'
+import OrderStatuses from '../../../../../pik-node-master/src/constants/OrderStatuses'
 import { callPhoneNumber, generateQrCode, priceToFixed, uploadUrl } from '../../../utils/helpers';
 import PrimaryButton from '../../../components/ButtonPrimary';
 import DriverInfo from '../../../components/DriverInfo';
