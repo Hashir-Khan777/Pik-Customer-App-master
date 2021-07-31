@@ -158,17 +158,8 @@ const HomePackageLocationScreen = ({
       console.log('Oops!', region);
       GoogleApi.geocoding([region.latitude, region.longitude])
         .then(({results}) => {
-          let address = results[0];
-          return {
-            ...address,
-            geometry: {
-              ...address.geometry,
-              location: {
-                lat: region.latitude,
-                lng: region.longitude,
-              },
-            },
-          };
+          let address = results[1];
+          setMapCenterAddress(address);
         })
         .catch((error) => {
           return {
@@ -180,10 +171,6 @@ const HomePackageLocationScreen = ({
               },
             },
           };
-        })
-        .then((address) => {
-          console.log('addess ==========>', address);
-          setMapCenterAddress(address);
         });
     }
   }, [mapView, selectedAddress, region]);
