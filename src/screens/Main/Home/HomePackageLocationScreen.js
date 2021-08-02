@@ -104,7 +104,12 @@ const HomePackageLocationScreen = ({
         );
         props.setRecentAddresses([address, ...newRecentAddresses].slice(0, 5));
 
-        setLocation(address);
+        setLocation({
+          ...address,
+          formatted_address: selectedAddressName
+            ? selectedAddressName
+            : address.formatted_address,
+        });
         navigation.goBack();
       })
       .catch((error) => {})
@@ -112,6 +117,12 @@ const HomePackageLocationScreen = ({
         setInProgress(false);
       });
   };
+
+  useEffect(() => {
+    if (defaultAddress) {
+      setSelectedAddressName(defaultAddress?.formatted_address);
+    }
+  }, []);
 
   useEffect(() => {
     if (selectedAddress || !mapView) return;

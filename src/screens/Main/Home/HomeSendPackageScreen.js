@@ -129,7 +129,7 @@ const HomeSendPackageScreen = ({ navigation, route, ...props }) => {
     const [price, setPrice] = useState(null);
 
     const selectPickupLocation = () => {
-        navigation.navigate('LocationGet', { setLocation: setPickupAddress, address: pickupAddress })
+        navigation.navigate('LocationGet', { setLocation: setPickupAddress, address: pickupAddress && {...pickupAddress, formatted_address: pickupAddress?.formatted_address} })
     }
 
     const selectDeliveryLocation = () => {
