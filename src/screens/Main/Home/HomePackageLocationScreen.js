@@ -67,7 +67,7 @@ const HomePackageLocationScreen = ({
         // else
         return GoogleApi.geocoding([region.latitude, region.longitude])
           .then(({results}) => {
-            let address = results[0];
+            let address = results[1];
             return {
               ...address,
               geometry: {
