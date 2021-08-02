@@ -43,6 +43,7 @@ const HomePackageLocationScreen = ({
   const [selectedAddress, setSelectedAddress] = useState(
     defaultAddress || null,
   );
+  const [selectedAddressName, setSelectedAddressName] = useState(null);
   const [mapCenterAddress, setMapCenterAddress] = useState(null);
 
   let [region, setRegion] = useState({
@@ -211,10 +212,17 @@ const HomePackageLocationScreen = ({
               placeholderColor={COLOR_NEUTRAL_GRAY}
               leftIcon="search"
               placeholder="Search"
-              value={mapCenterAddress?.formatted_address}
+              value={
+                selectedAddressName === null
+                  ? mapCenterAddress?.formatted_address
+                  : selectedAddressName
+              }
               color={'white'}
               onPress={() =>
-                navigation.navigate('LocationSearch', {setSelectedAddress})
+                navigation.navigate('LocationSearch', {
+                  setSelectedAddress,
+                  setSelectedAddressName,
+                })
               }
             />
           </HeaderBase>
@@ -225,8 +233,16 @@ const HomePackageLocationScreen = ({
           ref={setMapView}
           style={StyleSheet.absoluteFill}
           initialRegion={region}
-          onRegionChangeComplete={setRegion}
+          onRegionChangeComplete={(region) => {
+            setRegion({
+              latitude: region.latitude,
+              longitude: region.longitude,
+              latitudeDelta: region.latitudeDelta,
+              longitudeDelta: region.longitudeDelta,
+            });
+          }}
           onPress={() => setSelectedAddress(null)}
+          onPanDrag={() => setSelectedAddressName(null)}
           zoomEnabled={true}
           zoomControlEnabled={false}
           showsUserLocation={true}
